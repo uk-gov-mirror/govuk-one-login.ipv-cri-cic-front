@@ -1028,10 +1028,6 @@ Resources:
             ScalingAdjustment: 200 # Scale by 200% of containers if the metric is breached
             # with 80-90% utilisation
           - MetricIntervalLowerBound: 15
-#            MetricIntervalUpperBound: 35 # 95%
-#            ScalingAdjustment: 300 # Scale by 300% of containers if the metric is breached
-#            # with 90-95% utilisation
-#          - MetricIntervalLowerBound: 35 # 95%
             ScalingAdjustment:
               500 # Scale by 500% of containers if the metric is breached
             # with >95% utilisation

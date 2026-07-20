@@ -135,7 +135,7 @@ Mappings:
       LOGLEVEL: "debug"
       LANGUAGETOGGLEDISABLED: false
       DEVICEINTELLIGENCEENABLED: true
-      MAY2025REBRANDENABLED: true
+      MAY2025REBRANDENABLED: false
       USEPINOLOGGER: true
       minECSCount: 1
       maxECSCount: 4
